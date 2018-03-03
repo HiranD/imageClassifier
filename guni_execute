@@ -1,0 +1,2 @@
+gunicorn --bind 0.0.0.0:8081 --worker-connections 20 --workers 1 --worker-class tornado --timeout 6000 rest_service:application
+# --backlog 100 --threads 10
