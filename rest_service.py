@@ -13,7 +13,7 @@ import time
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
-fh = logging.FileHandler('nameExtractorService.log', 'w', 'UTF-8')
+fh = logging.FileHandler('imageClassifyService.log', 'w', 'UTF-8')
 fh.setLevel(logging.DEBUG)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
