@@ -170,4 +170,5 @@ if __name__ == '__main__':
 
     # Creates graph from saved GraphDef.
     create_graph()
-    classify("/home/hiran/PycharmProjects/imageClassifier/test/resources/test_img_0.jpg")
+    test_resources = os.path.abspath(os.path.join(directory_path, "test/resources/"))
+    classify(test_resources + "test_img_0.jpg")
